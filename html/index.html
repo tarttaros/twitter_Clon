@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TwitterClon</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- sidebar start -->
+        <div class="sidebar">
+            <i class="fab fa-twitter"></i>
+            <div class="sidebarOption active">
+                <span class="material-icons-outlined">home</span>
+                <h2>Home</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">tag</span>
+                <h2>Explore</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">notifications</span>
+                <h2>Notifications</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">email</span>
+                <h2>Messages</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">turned_in_not</span>
+                <h2>Bookmarks</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">article</span>
+                <h2>Lists</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons-outlined">person</span>
+                <h2>Profile</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">more_horiz</span>
+                <h2>More</h2>
+            </div>
+
+            <button class="sidebar__tweet">Tweet</button>
+
+        </div>
+        <!-- sidebar ends -->
+
+        <!-- feed start-->
+        <div class="feed">
+            <div class="feed__header">
+                <h2>Home</h2>
+                <span class="material-icons-outlined homeIcon">auto_awesome</span>
+            </div>
+
+            <!-- tweetBox start-->
+            <div class="tweetBox">
+                <form>
+                    <div class="tweetbox__input">
+                        <img src="../imagenes/usuarioIcono.png" alt=""/>
+                        <input type="text" placeholder="What´s happening?" />
+                    </div>
+                    <div class="icons__tweetBox">
+                        <span class="material-icons-outlined icon1-1">image</span>
+                        <span class="material-icons-outlined icon1-2">gif_box</span>
+                        <span class="material-icons-outlined icon1-3">insert_chart</span>
+                        <span class="material-icons-outlined icon1-4">sentiment_satisfied</span>
+                        <span class="material-icons-outlined icon1-5">event</span>
+                        <button class="tweetBox__tweetButton">Tweet</button>
+                    </div>
+                </form>
+            </div>
+            <!-- tweetBox ends -->
+
+            <!-- post start -->
+            <div class="post">
+                <div class="post__avatar">
+                    <img src="../imagenes/perfil1.jpg" alt="">
+                </div>
+
+                <div class="post__body">
+                    <div class="post__header">
+                        <div class="post__headerText">
+                            <h3>
+                                Pepito Perez
+                                <span class="post__headerSpecial">
+                                    <span class="material-icons post__badge">verified</span>
+                                    @pepito1313
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="post__headerDescription">
+                            <p>
+                                Había una mujer, fue la primera vez que encontré a
+                                alguien que estuviera verdaderamente vivo. Al menos,
+                                eso fue lo que pensé.
+                            </p>
+                            <p>
+                                Ella era... la parte de mí que
+                                perdí en algún lugar del camino, la parte que faltaba,
+                                la que deseaba.
+                            </p>
+                        </div>
+                    </div>
+
+                    <img src="../imagenes/post1.jpg" alt="">
+
+                    <div class="post__footer">
+                        <span class="material-icons icon2-1">mode_comment</span>
+                        <span class="material-icons icon2-2">repeat</span>
+                        <span class="material-icons icon2-3">favorite_border</span>
+                        <span class="material-icons icon2-4">ios_share</span>
+                    </div>
+                </div>
+            </div>
+            <!-- post ends -->
+
+            <!-- post start -->
+            <div class="post">
+                <div class="post__avatar">
+                    <img src="../imagenes/perfil1.jpg" alt="">
+                </div>
+
+                <div class="post__body">
+                    <div class="post__header">
+                        <div class="post__headerText">
+                                <h3>
+                                    Pepito Perez
+                                    <span class="post__headerSpecial">
+                                        <span class="material-icons post__badge">verified</span>
+                                        @pepito1313
+                                    </span>
+                                </h3>
+                            </div>
+                            <div class="post__headerDescription">
+                                <p>
+                                    Había una mujer, fue la primera vez que encontré a
+                                    alguien que estuviera verdaderamente vivo. Al menos,
+                                    eso fue lo que pensé.
+                                </p>
+                                <p>
+                                    Ella era... la parte de mí que
+                                    perdí en algún lugar del camino, la parte que faltaba,
+                                    la que deseaba.
+                                </p>
+                        </div>
+                    </div>
+
+                    <img src="../imagenes/post1.jpg" alt="">
+
+                    <div class="post__footer">
+                        <span class="material-icons icon2-1">mode_comment</span>
+                        <span class="material-icons icon2-2">repeat</span>
+                        <span class="material-icons icon2-3">favorite_border</span>
+                        <span class="material-icons icon2-4">ios_share</span>
+                    </div>
+                </div>
+            </div>
+            <!-- post ends -->
+        </div>
+        <!-- feed ends -->
+
+        <!-- widgets start -->
+        <div class="widgets">
+            <div class="widgets__input">
+                <span class="material-icons widgets__searchIcon">search</span>
+                <input type="text" placeholder="Search Twitter">
+            </div>
+
+            <div class="widgets__widgetContainer">
+                <h2>
+                    What´s happening?
+                </h2>
+                <blockquote class="twitter-tweet">
+                    <p lang="es" dir="ltr">
+                        Los kyrianos. Las sílfides nocturnas. Los necroseñores.
+                        Los venthyr. Las Fauces. Todo aguarda en
+                        <a href="https://twitter.com/hashtag/Shadowlands?src=hash&amp;ref_src=twsrc%5Etfw">#Shadowlands</a> - 24/11 <a href="https://t.co/1jdDnnuIa6">pic.twitter.com/1jdDnnuIa6</a>
+                    </p>&mdash; Warcraft_ES (@Warcraft_ES)
+                    <a href="https://twitter.com/Warcraft_ES/status/1328398926299455490?ref_src=twsrc%5Etfw">November 16, 2020</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js"charset="utf-8"></script>
+            </div>
+        </div>
+        <!-- widgets ends -->
+    </body>
+</html>
